@@ -99,9 +99,9 @@ author:
   location         : "Gwangyang-si, South Korea"
   email            :
   links:
-    - label: "Email"
+    - label: "lja3723@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "lja3723@gmail.com"
+      # url: "lja3723@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
