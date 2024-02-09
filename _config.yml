@@ -28,8 +28,8 @@ url: "https://lja3723.github.io"
 github:
   username: lja3723 # change to your github username
 
-twitter:
-  username: lja3723 # change to your twitter username
+#twitter:
+#  username: lja3723 # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,9 +38,9 @@ social:
   email: lja3723@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/lja3723 # change to your twitter homepage
     - https://github.com/lja3723 # change to your github homepage
     # Uncomment below to add more social links
+    # - https://twitter.com/lja3723 # change to your twitter homepage
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
@@ -51,6 +51,9 @@ google_site_verification: # fill in to your verification string
 
 google_analytics:
   id: # fill in your Google Analytics ID
+# pv:
+#   proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+#   cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
