@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://lja3723.github.io/sitemap.xml
