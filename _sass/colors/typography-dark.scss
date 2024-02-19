@@ -4,9 +4,9 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --main-bg: rgb(27, 27, 30);
-  --mask-bg: rgb(68, 69, 70);
-  --main-border-color: rgb(44, 45, 45);
+  --main-bg: rgb(31, 32, 34);
+  --mask-bg: rgb(70, 71, 72);
+  --main-border-color: rgb(56, 58, 58);
 
   /* Common color */
   --text-color: rgb(175, 176, 177);
@@ -23,7 +23,6 @@
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
   --btn-box-shadow: var(--main-bg);
-  --card-header-bg: #292929;
   --checkbox-color: rgb(118, 120, 121);
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
@@ -35,19 +34,19 @@
   );
 
   /* Sidebar */
-  --site-title-color: #717070;
-  --site-subtitle-color: #868686;
-  --sidebar-bg: #1e1e1e;
+  --site-title-color: #e0e0e0;
+  --site-subtitle-color: #a2b6dc;
+  --sidebar-bg: #252525;
   --sidebar-border-color: #292929;
-  --sidebar-muted-color: #868686;
+  --sidebar-muted-color: #7b7b7b;
   --sidebar-active-color: rgb(255, 255, 255, 0.95);
-  --sidebar-hover-bg: #262626;
-  --sidebar-btn-bg: #232328;
-  --sidebar-btn-color: #787878;
-  --avatar-border-color: rgb(206, 206, 206, 0.9);
+  --sidebar-hover-bg: #2a2e38;
+  --sidebar-btn-bg: #303036;
+  --sidebar-btn-color: #8e8e8e;
+  --avatar-border-color: rgba(41, 126, 206, 0.9);
 
   /* Topbar */
-  --topbar-bg: rgb(27, 27, 30, 0.64);
+  --topbar-bg: rgb(31, 32, 34, 0.64);
   --topbar-text-color: var(--text-color);
   --search-border-color: rgb(55, 55, 55);
   --search-icon-color: rgb(100, 102, 105);
@@ -62,12 +61,12 @@
   --toc-highlight: rgb(116, 178, 243);
   --tag-hover: rgb(43, 56, 62);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
-  --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
+  --tb-even-bg: rgb(35, 35, 38); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
   --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
-  --card-bg: #1e1e1e;
+  --card-bg: #262626;
   --card-hovor-bg: #464d51;
   --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
     rgb(137, 135, 135, 0.24) 0 0 0 1px;
@@ -91,8 +90,9 @@
   --search-tag-bg: #292828;
 
   /* categories */
-  --categories-border: rgb(64, 66, 69, 0.5);
-  --categories-hover-bg: rgb(73, 75, 76);
+  --categories-border: rgba(69, 64, 64, 0.5);
+  --categories-header-bg: #303030;
+  --categories-hover-bg: rgb(76, 73, 73);
   --categories-icon-hover-color: white;
 
   /* archives */
@@ -116,7 +116,7 @@
 
   .categories {
     .card-header {
-      background-color: var(--card-header-bg);
+      background-color: var(--categories-header-bg);
     }
 
     .list-group-item {
@@ -134,11 +134,11 @@
   #archives li:nth-child(odd) {
     background-image: linear-gradient(
       to left,
-      rgb(26, 26, 30),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(26, 26, 30)
+      rgb(31, 32, 34),
+      rgb(48, 48, 54),
+      rgb(48, 48, 54),
+      rgb(48, 48, 54),
+      rgb(31, 32, 34)
     );
   }
 
