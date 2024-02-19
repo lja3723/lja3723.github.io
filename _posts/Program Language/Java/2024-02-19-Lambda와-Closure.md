@@ -1,7 +1,7 @@
 ---
-title: "[Javs] 람다식과 그것"
+title: "[Javs] Lambda와 Closure"
 date: 2024-02-19 20:07:00 +0900
-categories: [프로그래밍 언어, Java]
+categories: [Program-Language, Java]
 tags: [Java, Javstudy]
 ---
 
