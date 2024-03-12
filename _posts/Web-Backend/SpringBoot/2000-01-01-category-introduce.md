@@ -5,6 +5,4 @@ categories: [Web-Backend, SpringBoot]
 tags: []
 ---
 
-## Category Introduce
-
 이 카테고리 게시물은 SpringBoot를 다룬다.

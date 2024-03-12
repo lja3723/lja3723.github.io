@@ -1,7 +1,7 @@
 ---
-title: "[C++] Category Introduce"
+title: "[CPP] Category Introduce"
 date: 2000-01-01 00:00:00 +0900
-categories: [Program-Language, C++]
+categories: [Program-Language, CPP]
 tags: []
 ---
 

@@ -5,6 +5,4 @@ categories: [Computer-Science, 데이터베이스]
 tags: []
 ---
 
-## Category Introduce
-
 이 카테고리 게시물은 데이터베이스를 다룬다.

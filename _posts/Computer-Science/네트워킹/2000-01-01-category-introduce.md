@@ -5,6 +5,4 @@ categories: [Computer-Science, 네트워킹]
 tags: []
 ---
 
-## Category Introduce
-
 이 카테고리 게시물은 Networking을 다룬다.

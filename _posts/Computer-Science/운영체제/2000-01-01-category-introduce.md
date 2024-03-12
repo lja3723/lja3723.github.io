@@ -5,6 +5,4 @@ categories: [Computer-Science, 운영체제]
 tags: []
 ---
 
-## Category Introduce
-
 이 카테고리 게시물은 운영체제를 다룬다.

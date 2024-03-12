@@ -5,6 +5,4 @@ categories: [Program-Language, Java]
 tags: []
 ---
 
-## Category Introduce
-
 이 카테고리 게시물은 Java를 다룬다.

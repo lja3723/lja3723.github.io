@@ -5,6 +5,4 @@ categories: [Computer-Science, 알고리즘]
 tags: []
 ---
 
-## Category Introduce
-
 이 카테고리 게시물은 알고리즘을 다룬다.

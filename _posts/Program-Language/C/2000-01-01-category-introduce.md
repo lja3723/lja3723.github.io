@@ -5,6 +5,4 @@ categories: [Program-Language, C]
 tags: []
 ---
 
-## Category Introduce
-
 이 카테고리 게시물은 C언어를 다룬다.
