@@ -212,10 +212,10 @@ printf("%lu\n", sizeof("hello"));
 ## 참고 문서
 {: data-toc-skip=''}
 
-- [[#] C언어 객체(object)](http://blog.naver.com/han95173/220765393422){: target='_blank'}
+- [[#] C언어 객체(object)](https://blog.naver.com/han95173/220765393422){: target='_blank'}
 - [[#] lvalue와 rvalue (1)](https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/){: target='_blank'}
 - [[#] lvalue와 rvalue (2)](https://www.codeproject.com/Articles/313469/The-Notion-of-Lvalues-and-Rvalues){: target='_blank'}
-- [[#] lvalue와 rvalue (3)](http://blog.naver.com/han95173/220765490854){: target='_blank'}
+- [[#] lvalue와 rvalue (3)](https://blog.naver.com/han95173/220765490854){: target='_blank'}
 - [[#] lvalue와 rvalue (4)](https://scor7910.tistory.com/66){: target='_blank'}
 - [[#] value(computer science)](https://en.wikipedia.org/wiki/Value_(computer_science)){: target='_blank'}
 - [[#] 표현식(expression)](https://ieatt.tistory.com/36){: target='_blank'}

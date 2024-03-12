@@ -147,4 +147,4 @@ sizeof(arr) == sizeof(T) * s1 * s2 * ... * sN  // 값은 항상 참이다
 - [[#] 배열형이란?](https://www.geeksforgeeks.org/arrays-in-c-cpp/?ref=lbp){: target='_blank'}
 - [[#] 배열의 선언](https://docs.microsoft.com/ko-kr/cpp/c-language/array-declarations?view=msvc-160){: target='_blank'}
 - [[#] 다차원 배열](https://modoocode.com/20){: target='_blank'}
-- [[#] 배열의 배열과 배열의 메모리 구조](http://www.tcpschool.com/c/c_array_oneDimensional){: target='_blank'}
+- [[#] 배열의 배열과 배열의 메모리 구조](https://www.tcpschool.com/c/c_array_oneDimensional){: target='_blank'}
