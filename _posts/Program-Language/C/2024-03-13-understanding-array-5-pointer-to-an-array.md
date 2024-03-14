@@ -140,7 +140,7 @@ int main(void)
 
 ### 2.3. 배열의 붕괴의 3가지 예외 - 단항 주소 연산자 & 
 
-이제 배열 형식 포인터를 배웠으므로, [저번 글(4. 배열의 포인터로의 붕괴)]({% link _posts/Program-Language/C/2024-03-13-understanding-array-4-operator-properties-of-array-and-pointer.md %})에서 설명을 미루었던 배열의 붕괴 예외 2번, **배열 형식이 단항 주소 연산자 `&` 의 피연산자로 쓰이는 경우**를 설명하겠다. 위 코드를 다시 보자.
+이제 배열 형식 포인터를 배웠으므로, [저번 글(4. 배열의 포인터로의 붕괴)]({% link _posts/Program-Language/C/2024-03-13-understanding-array-4-array-to-pointer-decay.md %})에서 설명을 미루었던 배열의 붕괴 예외 2번, **배열 형식이 단항 주소 연산자 `&` 의 피연산자로 쓰이는 경우**를 설명하겠다. 위 코드를 다시 보자.
 
 ```c
 int arr[6];
@@ -265,7 +265,7 @@ p[0][0][0][0];
 - [[#] 다차원 배열 포인터의 연산](https://www.geeksforgeeks.org/multidimensional-pointer-arithmetic-in-cc/){: target='_blank'}
 - [[#] [배열의 이해] 1. 배열 형식(array type)]({% link _posts/Program-Language/C/2024-03-12-understanding-array-1-array-type.md %}){: target='_blank'}
 - [[#] [배열의 이해] 3. 배열 및 포인터와 관련된 여러 연산자의 성질]({% link _posts/Program-Language/C/2024-03-13-understanding-array-3-operator-properties-of-array-and-pointer.md %}){: target='_blank'}
-- [[#] [배열의 이해] 4. 배열의 포인터로의 붕괴]({% link _posts/Program-Language/C/2024-03-13-understanding-array-4-operator-properties-of-array-and-pointer.md %}){: target='_blank'}
+- [[#] [배열의 이해] 4. 배열의 포인터로의 붕괴]({% link _posts/Program-Language/C/2024-03-13-understanding-array-4-array-to-pointer-decay.md %}){: target='_blank'}
 
 <br>
 
