@@ -180,3 +180,9 @@ OS는 하드웨어에 대한 추상화: 컴퓨터도 추상화할 수 있다.
 실시간 애플리케이션 또는 태스크를 **정해진 데드라인(deadline) 시간 이내에 처리되도록 보장**하는 것을 목표로 한다.
 - 처리시간 예측 가능하고, 보장함 (Timing guarantee)
 - pSOS, VxWorks, VRTX, RT-Linux, Lynx
+
+<br>
+---
+
+#### 각주
+{: data-toc-skip=''}
