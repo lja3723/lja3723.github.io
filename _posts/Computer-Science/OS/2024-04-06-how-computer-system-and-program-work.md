@@ -1,10 +1,10 @@
 ---
 title: "[운영체제] 컴퓨터구조: 컴퓨터 시스템과 프로그램의 작동 원리"
 date: 2024-04-06 10:27:00 +0900
-categories: [Computer-Science, 운영체제]
+categories: [Computer-Science, OS]
 tags: ['OS', '컴퓨터구조']
 ---
-{% assign img_path = "/assets/img/posts/운영체제/2024-04-06-how-computer-system-and-program-work" %}
+{% assign img_path = "/assets/img/posts/OS/2024-04-06-how-computer-system-and-program-work" %}
 
 
 

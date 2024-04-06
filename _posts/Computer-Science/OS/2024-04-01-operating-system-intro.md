@@ -1,10 +1,10 @@
 ---
 title: "[운영체제] 운영체제 개요"
 date: 2024-04-01 12:24:00 +0900
-categories: [Computer-Science, 운영체제]
+categories: [Computer-Science, OS]
 tags: ['OS']
 ---
-{% assign img_path = "/assets/img/posts/운영체제/2024-04-01-operating-system-intro" %}
+{% assign img_path = "/assets/img/posts/OS/2024-04-01-operating-system-intro" %}
 
 
 

@@ -1,10 +1,10 @@
 ---
 title: "[운영체제] 운영체제 구조"
 date: 2024-04-01 15:37:00 +0900
-categories: [Computer-Science, 운영체제]
+categories: [Computer-Science, OS]
 tags: ['OS']
 ---
-{% assign img_path = "/assets/img/posts/운영체제/2024-04-01-os_structure" %}
+{% assign img_path = "/assets/img/posts/OS/2024-04-01-os_structure" %}
 
 
 ## 1. 운영체제의 구조
