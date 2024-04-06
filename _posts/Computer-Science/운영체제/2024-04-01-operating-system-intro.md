@@ -182,7 +182,7 @@ OS는 하드웨어에 대한 추상화: 컴퓨터도 추상화할 수 있다.
 - pSOS, VxWorks, VRTX, RT-Linux, Lynx
 
 <br>
----
 
+---
 #### 각주
 {: data-toc-skip=''}
