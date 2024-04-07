@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] 운영체제 개요"
+title: "[OS] 운영체제 개요"
 date: 2024-04-01 12:24:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS']

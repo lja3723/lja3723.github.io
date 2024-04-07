@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] 컴퓨터구조: 병렬 처리"
+title: "[OS] 컴퓨터구조: 병렬 처리"
 date: 2024-04-06 19:10:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '컴퓨터구조']

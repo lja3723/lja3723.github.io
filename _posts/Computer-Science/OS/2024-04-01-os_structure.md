@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] 운영체제 구조"
+title: "[OS] 운영체제 구조"
 date: 2024-04-01 15:37:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS']

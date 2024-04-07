@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] 컴퓨터구조: 하드웨어"
+title: "[OS] 컴퓨터구조: 하드웨어"
 date: 2024-04-05 19:05:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '컴퓨터구조']
