@@ -1,6 +1,6 @@
 ---
 title: "[OS] 셸, 작업/세션 관리와 PGID, Daemon"
-date: 2024-04-07 21:15:00 +0900
+date: 2024-04-07 22:48:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '프로세스']
 ---
