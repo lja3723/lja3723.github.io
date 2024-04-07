@@ -3,6 +3,10 @@ title: "[OS] 컴퓨터구조: 하드웨어"
 date: 2024-04-05 19:05:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '컴퓨터구조']
+image:
+  path: /assets/img/posts/OS/2024-04-05-computer-architecture/preview.png
+  lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAGCAMAAADAMI+zAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAG9QTFRF/////v7+9Pb48vT36evu5uns/f3+2OPwzdztydfoxtXm0t/u+/z9+fn57u7v5eTl7e/w7vDy4OLl3+Hk6uzv4+nt4ODi8vLz9fX19/f35ubm5uXm6+rq3dzd29vc8vLy6+7v4ODh/f39/Pz8+/v72F0M2QAAADNJREFUeJxjZEACjEAEAv8YmH+BOWwgDjPjFwZGXkYkIAnEv0FyjG85GZUYQTr/g/T/BwD4GQhYBOU8kgAAAABJRU5ErkJggg==
+  alt: "컴퓨터 계층 구조"
 ---
 {% assign img_path = "/assets/img/posts/OS/2024-04-05-computer-architecture" %}
 

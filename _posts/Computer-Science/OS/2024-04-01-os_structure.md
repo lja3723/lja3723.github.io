@@ -3,6 +3,10 @@ title: "[OS] 운영체제 구조"
 date: 2024-04-01 15:37:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS']
+image:
+  path: /assets/img/posts/OS/2024-04-01-os_structure/preview.png
+  lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAMAAABLuo1aAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAF1QTFRF////9/n+/P3+yeLm3OTmutHi5uv11ODj1dze1eTvzNPV4eX21eDixtjpytnc6vL5wNjp3eTrzuDs2eLo09jn1trsydvnxt/jzeDsw9vf1uvu0d/j5Or06/b31ubyteM7AAAAADRJREFUeJxjYGDglxCTE+JkYgACNhYOLhZBRhBThkeaj10YzOQWEWDlFQUzZZnFJZmlmBgAMokB3Q7FWpcAAAAASUVORK5CYII=
+  alt: "컴퓨터 시스템의 구조"
 ---
 {% assign img_path = "/assets/img/posts/OS/2024-04-01-os_structure" %}
 

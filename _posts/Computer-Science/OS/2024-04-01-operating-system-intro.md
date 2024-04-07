@@ -3,6 +3,10 @@ title: "[OS] 운영체제 개요"
 date: 2024-04-01 12:24:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS']
+image:
+  path: /assets/img/posts/OS/2024-04-01-operating-system-intro/preview.png
+  lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAMAAABLuo1aAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAJZQTFRF/v7+/P39+Pf17/b59vTr+vPx+vn59/f2+/v7/fT06e706u/15uvy5+zz6O3z5+zy5Orx5Onv5erv5ezz4urz4er03Obx2eLt3ebw2OHqz9nk1d7n3ebv2OLu7PP57fP66fH45u726vH45+715ez05Ovx5Orw6efv6+zt6enr6urr9vb37vHz4uPi4+bf5ujp4+nr9PPyU4KNiAAAABdJREFUeJxjZGCEAy4EUwTBlEMwNeAsAA3PAJdS6Y30AAAAAElFTkSuQmCC
+  alt: "운영체제의 기능 요약"
 ---
 {% assign img_path = "/assets/img/posts/OS/2024-04-01-operating-system-intro" %}
 

@@ -3,6 +3,10 @@ title: "[OS] 컴퓨터구조: 컴퓨터 시스템과 프로그램의 작동 원�
 date: 2024-04-06 10:27:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '컴퓨터구조']
+image:
+  path: /assets/img/posts/OS/2024-04-06-how-computer-system-and-program-work/preview.png
+  lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAMAAACgjTZZAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAGBQTFRF/P398fLt8fX44Ofp+PX0////+fz98vHy2dvM4uLk9/n70d3h6Ori39ve5ObZ5uLF3ezj6unp5eTe2ePe+/b38Ozp5u/o8u/v4Ovn4ODh+vv65eXm7vTu4+zk6Ors6u3jttvXdQAAADdJREFUeJwFwQUCgDAMALFrO0MHw/3/vyThim81x1rhufcpuKU9MWtMx5IEhpWgXxaObsN76d0POdoCE9TQ9KIAAAAASUVORK5CYII=
+  alt: "인터럽트 과정"
 ---
 {% assign img_path = "/assets/img/posts/OS/2024-04-06-how-computer-system-and-program-work" %}
 
