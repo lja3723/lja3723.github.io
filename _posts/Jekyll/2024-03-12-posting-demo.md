@@ -21,27 +21,41 @@ image:
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 
-# H1 - heading
+# H1 - heading 
 {: .mt-4 .mb-0 }
+- TOC 표시에서 제외됨
+- margin-top 있음
 
 ## H2 - heading
 {: data-toc-skip='' .mt-4 .mb-0 }
+- margin-top 있음
 
 ### H3 - heading
 {: data-toc-skip='' .mt-4 .mb-0 }
 
 #### H4 - heading
+{: data-toc-skip='' .mt-4 .mb-0 }
+
+##### H5 - heading
+{: data-toc-skip='' .mt-4 .mb-0 }
+
+###### H6 - heading 
 {: data-toc-skip='' .mt-4 }
+- 최대 한계 Heading
 <!-- markdownlint-restore -->
+
+<br>
 
 이것은 문단이다. 대한민국은 민주공화국이다. 탄핵결정은 공직으로부터 파면함에 그친다. 그러나, 이에 의하여 민사상이나 형사상의 책임이 면제되지는 아니한다. 국회의원이 회기전에 체포 또는 구금된 때에는 현행범인이 아닌 한 국회의 요구가 있으면 회기중 석방된다. 국회는 국가의 예산안을 심의·확정한다. 대통령은 제1항과 제2항의 처분 또는 명령을 한 때에는 지체없이 국회에 보고하여 그 승인을 얻어야 한다. 국무총리는 대통령을 보좌하며, 행정에 관하여 대통령의 명을 받아 행정각부를 통할한다. 군인은 현역을 면한 후가 아니면 국무총리로 임명될 수 없다. 감사원은 원장을 포함한 5인 이상 11인 이하의 감사위원으로 구성한다. 피고인의 자백이 고문·폭행·협박·구속의 부당한 장기화 또는 기망 기타의 방법에 의하여 자의로 진술된 것이 아니라고 인정될 때 또는 정식재판에 있어서 피고인의 자백이 그에게 불리한 유일한 증거일 때에는 이를 유죄의 증거로 삼거나 이를 이유로 처벌할 수 없다.
 
 
 ```md
-# H1 - heading
-## H2 - heading
+# H1 - heading (TOC 표시 제외됨, margin-top 있음)
+## H2 - heading (margin-top 있음)
 ### H3 - heading
 #### H4 - heading
+##### H5 - heading
+###### H6 - heading (최대 한계)
 ```
 {: .nolineno }
 

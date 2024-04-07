@@ -37,29 +37,28 @@ body {
 
 /* --- Typography --- */
 
-@for $i from 1 through 5 {
+@for $i from 1 through 6 {
   h#{$i} {
     @extend %heading;
 
-    @if $i > 1 {
+    @if $i >= 2 {
       @extend %section;
       @extend %anchor;
     }
 
-    @if $i < 5 {
-      $factor: 0.18rem;
+    $factor: 0.17rem;
 
-      @if $i == 1 {
-        $factor: 0.23rem;
-      }
-
-      @if $i == 2 {
-        padding-top: 3.5rem;
-      }
-
-      font-size: 1rem + (5 - $i) * $factor;
-    } @else {
-      font-size: 1rem;
+    @if $i <= 2 {
+      padding-top: 3.5rem;
+      $factor: 0.20rem;
+      font-size: 1rem + 4 * $factor;
+    }
+    @else if $i <= 5 {
+      font-size: 1rem + (6 - $i) * $factor;
+    }
+    @else {      
+      $factor: 0.13rem;
+      font-size: 1rem + $factor;
     }
   }
 }
