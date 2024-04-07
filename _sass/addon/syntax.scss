@@ -42,8 +42,7 @@ html {
 
 .highlighter-rouge {
   color: var(--highlighter-rouge-color);
-  margin-top: 0.5rem;
-  margin-bottom: 1.2em; /* Override BS Inline-code style */
+  margin: 0.5rem 0.2rem 0.9em; /* Override BS Inline-code style */
 }
 
 .highlight {
@@ -276,11 +275,11 @@ div {
         width: $code-dot-size;
         height: $code-dot-size;
         border-radius: 50%;
-        background-color: var(--code-header-muted-color);
+        background-color: var(--code-header-muted-color-1);
         box-shadow: ($code-dot-size + $code-dot-gap) 0 0
-            var(--code-header-muted-color),
+            var(--code-header-muted-color-2),
           ($code-dot-size + $code-dot-gap) * 2 0 0
-            var(--code-header-muted-color);
+            var(--code-header-muted-color-3);
       }
 
       span {

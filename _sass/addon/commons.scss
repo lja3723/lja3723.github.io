@@ -53,6 +53,10 @@ body {
         $factor: 0.23rem;
       }
 
+      @if $i == 2 {
+        padding-top: 2.8rem;
+      }
+
       font-size: 1rem + (5 - $i) * $factor;
     } @else {
       font-size: 1rem;

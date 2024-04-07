@@ -100,6 +100,15 @@
     display: none;
   }
 
+  hr {
+    border-color: var(--main-border-color);
+    opacity: .095;
+    border-top: 2px solid;
+    border-radius: 2px;
+    margin-left: $hr-margin-size;
+    margin-right: $hr-margin-size;
+  }
+
   /* Categories */
   --categories-border: rgba(0, 0, 0, 0.125);
   --categories-hover-bg: var(--btn-border-color);
