@@ -559,6 +559,11 @@ image:
 
 
 
-## 각주
+<br><br><br><br>
+
+---
+#### 각주
+{: data-toc-skip=''}
+
 [^footnote]: 각주 설명문, [네이버 홈페이지](https://www.naver.com/)
 [^한글은-안된다]: 한글 각주 이름은 불가능하다.

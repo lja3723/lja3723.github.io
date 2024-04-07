@@ -185,7 +185,9 @@ OS는 하드웨어에 대한 추상화: 컴퓨터도 추상화할 수 있다.
 - 처리시간 예측 가능하고, 보장함 (Timing guarantee)
 - pSOS, VxWorks, VRTX, RT-Linux, Lynx
 
-<br>
+
+
+<br><br><br><br>
 
 ---
 #### 각주

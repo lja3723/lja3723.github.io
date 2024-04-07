@@ -222,7 +222,9 @@ printf("%lu\n", sizeof("hello"));
 - [[#] 문자열 리터럴](https://kldp.org/node/140475){: target='_blank'}
 - [[#] String literal은 lvalue? rvalue?](https://eklitzke.org/c-string-literals-are-lvalues){: target='_blank'}
 
-<br>
+
+
+<br><br><br><br>
 
 ---
 #### 각주

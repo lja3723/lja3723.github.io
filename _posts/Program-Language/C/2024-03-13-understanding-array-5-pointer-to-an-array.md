@@ -267,7 +267,9 @@ p[0][0][0][0];
 - [[#] [배열의 이해] 3. 배열 및 포인터와 관련된 여러 연산자의 성질]({% link _posts/Program-Language/C/2024-03-13-understanding-array-3-operator-properties-of-array-and-pointer.md %}){: target='_blank'}
 - [[#] [배열의 이해] 4. 배열의 포인터로의 붕괴]({% link _posts/Program-Language/C/2024-03-13-understanding-array-4-array-to-pointer-decay.md %}){: target='_blank'}
 
-<br>
+
+
+<br><br><br><br>
 
 ---
 #### 각주
