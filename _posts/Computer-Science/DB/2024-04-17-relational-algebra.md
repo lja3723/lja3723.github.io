@@ -28,11 +28,19 @@ tags: ['DB', '관계대수']
 
 ### 2.1. 릴레이션(relation)의 수학적 개념
 
-$A = \lbrace 2, 4 \rbrace, B = \lbrace 1, 3, 5 \rbrace$라 하자. 
-그러면 카티전 프로덕트 $A \times B = \lbrace (2,1), (2,3), (2,5), (4,1), (4,3), (4,5) \rbrace$이다.
+$A = \lbrace 2, 4 \rbrace$, $B = \lbrace 1, 3, 5 \rbrace$라 하자. 
+그러면 카티전 프로덕트 $A \times B$ $=$ $\lbrace (2,1)$, $(2,3)$, $(2,5)$, $(4,1)$, $(4,3)$, $(4,5) \rbrace$ 이다.
 
 - 릴레이션 $R$은 카티전 프로덕트($A \times B$)의 부분집합으로 정의함
-  - **예)** $R1 = \lbrace (2, 1), (4, 1) \rbrace , R2 = \lbrace (2, 1), (2, 3), (2, 5) \rbrace , R3 = \lbrace (2, 3), (2, 5), (4, 3), (4, 5) \rbrace$
+  - **예시** 
+
+$$
+  \begin{aligned}
+  R1 &= \lbrace (2, 1), (4, 1) \rbrace \\
+  R2 &= \lbrace (2, 1), (2, 3), (2, 5) \rbrace \\
+  R3 &= \lbrace (2, 3), (2, 5), (4, 3), (4, 5) \rbrace
+  \end{aligned}
+$$
 
 - 원소 개수가 $n$인 집합 $S$의 부분집합의 개수는 $2^{n}$임
   - 즉, (카티전 프로덕트 $A \times B$의 부분집합의 개수) $= 2^{\|A\| \times \|B\|}$
@@ -41,8 +49,13 @@ $A = \lbrace 2, 4 \rbrace, B = \lbrace 1, 3, 5 \rbrace$라 하자.
   - 즉, (집합 $A$의 도메인) $= \lbrace 2, 4 \rbrace$
 
 - 릴레이션 역시 집합이므로 집합에서 집합에서 가능한 연산은 합집합($\cup$), 교집합($\cap$), 카티전 프로덕트($\times$) 등이 있음
-  - $R1 \cup R2 = \lbrace(2, 1), (4, 1), (2, 3), (2, 5)\rbrace$
-  - $R1 \cap R2 = \lbrace(2, 1)\rbrace$
+
+$$
+  \begin{aligned}
+  R1 \cup R2 &= \lbrace(2, 1), (4, 1), (2, 3), (2, 5)\rbrace \\
+  R1 \cap R2 &= \lbrace(2, 1)\rbrace
+  \end{aligned}
+$$
 
 ### 2.2. 릴레이션의 현실 세계 적용
 
