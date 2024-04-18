@@ -2,7 +2,7 @@
 title: "[DB] 관계대수 연산 예시"
 date: 2024-04-18 02:16:00 +0900
 categories: [Computer-Science, DB]
-tags: ['DB']
+tags: ['DB', '관계대수']
 ---
 
 

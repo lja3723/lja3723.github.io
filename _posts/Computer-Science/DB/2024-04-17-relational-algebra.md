@@ -2,7 +2,7 @@
 title: "[DB] 관계대수와 연산자"
 date: 2024-04-17 23:28:00 +0900
 categories: [Computer-Science, DB]
-tags: ['DB']
+tags: ['DB', '관계대수']
 ---
 
 
