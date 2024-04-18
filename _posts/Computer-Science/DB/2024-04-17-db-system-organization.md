@@ -4,7 +4,6 @@ date: 2024-04-17 16:37:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB']
 ---
-{% assign img_path = "/assets/img/posts/DB/2024-04-17-db-system-organization" %}
 
 
 
@@ -13,6 +12,7 @@ tags: ['DB']
 - 데이터베이스 + DBMS + 데이터 모델
 - 데이터베이스 언어 + 데이터베이스 사용자
 
+{% assign img_path = "/assets/img/posts/DB/2024-04-17-db-system-organization" %}
 ![]({{ img_path }}/1. 데이터베이스 시스템의 구성.png){: width='600'}
 _데이터베이스 시스템의 구성_
 

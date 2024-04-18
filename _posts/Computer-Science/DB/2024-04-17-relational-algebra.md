@@ -4,7 +4,6 @@ date: 2024-04-17 23:28:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB']
 ---
-{% assign img_path = "/assets/img/posts/DB/2024-04-17-relational-algebra" %}
 
 
 
@@ -121,6 +120,7 @@ $A = \lbrace 2, 4 \rbrace, B = \lbrace 1, 3, 5 \rbrace$라 하자.
 
 다음은 관계대수식을 이해하기 위한 예제 데이터(릴레이션)이다.
 
+{% assign img_path = "/assets/img/posts/DB/2024-04-17-relational-algebra" %}
 ![4. 관계대수식]({{ img_path }}/4. 관계대수식.png){: width='300'}
 _관계대수식을 이해하기 위한 예제 데이터_
 

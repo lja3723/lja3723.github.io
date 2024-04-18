@@ -8,13 +8,13 @@ image:
   lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAMAAABLuo1aAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAF1QTFRF////9/n+/P3+yeLm3OTmutHi5uv11ODj1dze1eTvzNPV4eX21eDixtjpytnc6vL5wNjp3eTrzuDs2eLo09jn1trsydvnxt/jzeDsw9vf1uvu0d/j5Or06/b31ubyteM7AAAAADRJREFUeJxjYGDglxCTE+JkYgACNhYOLhZBRhBThkeaj10YzOQWEWDlFQUzZZnFJZmlmBgAMokB3Q7FWpcAAAAASUVORK5CYII=
   alt: "컴퓨터 시스템의 구조"
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-01-os_structure" %}
 
 
 ## 1. 운영체제의 구조
 
 운영체제는 크게 나누어 **2(+1) 구조**로 볼 수 있다.
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-01-os_structure" %}
 ![운영체제의 구조]({{ img_path }}/1. 운영체제의 구조.png){: width="300"}
 
 ### 1.1. 커널(Kernel)

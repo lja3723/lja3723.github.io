@@ -4,7 +4,6 @@ date: 2024-04-17 21:03:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB']
 ---
-{% assign img_path = "/assets/img/posts/DB/2024-04-17-relational-data-model" %}
 
 
 
@@ -22,6 +21,7 @@ tags: ['DB']
 | relational algebra    | 관계대수          |                      |
 | relationship          | 관계              |                      |
 
+{% assign img_path = "/assets/img/posts/DB/2024-04-17-relational-data-model" %}
 ![1.1. 릴레이션]({{ img_path }}/1.1. 릴레이션.png){: width='650'}
 
 - 도서번호 	= {1, 2, 3, 4, 5}

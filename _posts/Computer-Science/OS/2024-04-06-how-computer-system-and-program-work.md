@@ -8,7 +8,6 @@ image:
   lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAMAAACgjTZZAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAGBQTFRF/P398fLt8fX44Ofp+PX0////+fz98vHy2dvM4uLk9/n70d3h6Ori39ve5ObZ5uLF3ezj6unp5eTe2ePe+/b38Ozp5u/o8u/v4Ovn4ODh+vv65eXm7vTu4+zk6Ors6u3jttvXdQAAADdJREFUeJwFwQUCgDAMALFrO0MHw/3/vyThim81x1rhufcpuKU9MWtMx5IEhpWgXxaObsN76d0POdoCE9TQ9KIAAAAASUVORK5CYII=
   alt: "인터럽트 과정"
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-06-how-computer-system-and-program-work" %}
 
 
 
@@ -93,6 +92,7 @@ ret 0           ; c3                이 함수를 호출한 곳으로 리턴(0 �
 | **IP(중요)**   | Instruction 포인터          |
 | Flag 레지스터  | 연산결과에 대한 Flags       |
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-06-how-computer-system-and-program-work" %}
 ![레지스터]({{ img_path }}/1.3. 레지스터.png){: width='400'}
 
 [^trace]: SI, DI는 loop에서 사용됐던 레지스터로, 현재는 거의 사용되지 않는다. (흔적기관 같은 느낌)

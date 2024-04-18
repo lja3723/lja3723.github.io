@@ -4,7 +4,6 @@ date: 2024-04-08 09:18:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '스케줄링']
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-08-scheduling" %}
 
 
 
@@ -36,6 +35,7 @@ tags: ['OS', '스케줄링']
   2. **CPU Scheduling**
     - 메모리에 적재된 작업 중 CPU에 실행시킬 프로세스 선택
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-08-scheduling" %}
 ![다중 프로그래밍과 스케줄링]({{ img_path }}/1.1. 다중 프로그래밍과 스케줄링.png){: width='650'}
 _다중 프로그래밍과 스케줄링_
 

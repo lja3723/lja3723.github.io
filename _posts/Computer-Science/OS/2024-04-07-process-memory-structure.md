@@ -4,7 +4,6 @@ date: 2024-04-07 09:08:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '프로세스']
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-07-process-memory-structure" %}
 
 
 
@@ -83,6 +82,7 @@ tags: ['OS', '프로세스']
 |힙(heap) 영역 |실행중 동적 할당된 객체 | Runtime | `malloc()` 등으로 할당받는 공간은 힙 영역에서 할당됨<br>힙 영역에서 아래 번지로 내려가면서 할당 |
 | 스택(stack) 영역 | 함수 내 지역적인 객체 | Runtime | 매개변수, 지역변수, 함수 종료 후 돌아갈 주소 등이 저장됨<br>함수 호출 시, 스택 영역에서 위쪽으로 공간 할당<br>함수 return시 할당된 공간 반환함 |
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-07-process-memory-structure" %}
 ![프로세스의 메모리 구조]({{ img_path }}/3. 프로세스의 메모리 구조.png){: width='470'}
 _프로세스의 메모리 구조_
 

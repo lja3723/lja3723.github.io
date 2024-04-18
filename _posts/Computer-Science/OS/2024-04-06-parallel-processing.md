@@ -8,7 +8,6 @@ image:
   lqip: data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAGCAMAAADAMI+zAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAFFQTFRF/////f7+9uPj9/f3/fb28Pb47+Pk4+Hh9vLy3OLm4urt9ufm3t7e9vb23dPT6enp1N7j7e3t3NnZ8/Pz6+Td7fP11+Lm8ebn8e3t4dPT4+PjuTW7gwAAAD1JREFUeJxjYEAGvMyMQCTMwMwvyMPAxc3IxcQqziIhwsPHIMDEyMkkysbCwc0uySAG4rCysQizSwmh6AcARPYB1q+KR64AAAAASUVORK5CYII=
   alt: "Concurrency vs Parallelism"
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-06-parallel-processing" %}
 
 
 
@@ -25,6 +24,7 @@ image:
 | 한번에 많은 것을 처리                               | 한번에 많은 일을 처리                               |
 | **논리적인 개념**                                   | **물리적인 개념**                                   |
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-06-parallel-processing" %}
 ![Concurrency vs Parallelism]({{ img_path }}/1.1. Concurrency vs Parallelism.png){: width='600'}
 _Concurrency vs Parallelism_
 

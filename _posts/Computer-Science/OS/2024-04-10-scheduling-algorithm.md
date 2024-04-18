@@ -4,7 +4,6 @@ date: 2024-04-10 15:40:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '스케줄링']
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-10-scheduling-algorithm" %}
 
 
 
@@ -32,6 +31,7 @@ tags: ['OS', '스케줄링']
 #### **예시**
 {: data-toc-skip=''}
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-10-scheduling-algorithm" %}
 ![]({{ img_path }}/1.4. 평균 대기시간, 평균 반환시간.png){: width='300'}
 
 ![]({{ img_path }}/1.4. 평균 대기시간, 평균 반환시간 2.png){: width='450'}

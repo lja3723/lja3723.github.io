@@ -4,7 +4,6 @@ date: 2024-04-18 02:16:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB']
 ---
-{% assign img_path = "/assets/img/posts/DB/2024-04-18-relational-algebra-example" %}
 
 
 
@@ -123,6 +122,7 @@ $\\; {\large\pi}_{\mathrm{이름, \\; 주소, \\; 핸드폰}}(\mathrm{고객}) \
 
 <br> **질의 결과**
 
+{% assign img_path = "/assets/img/posts/DB/2024-04-18-relational-algebra-example" %}
 ![4. 합집합]({{ img_path }}/4. 합집합.png){: width='650'}
 
 ---

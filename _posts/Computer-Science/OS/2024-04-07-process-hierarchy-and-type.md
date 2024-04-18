@@ -4,7 +4,6 @@ date: 2024-04-07 21:15:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '프로세스']
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-07-process-hierarchy-and-type" %}
 
 
 
@@ -13,6 +12,7 @@ tags: ['OS', '프로세스']
 유닉스의 모든 프로세스는 **init 프로세스의 자식**이 되어 **트리 구조**를 이룬다.
 - Windows는 이렇게까진 아니지만 거의 비슷함
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-07-process-hierarchy-and-type" %}
 ![init]({{ img_path }}/1. init.png){: width='400'}
 
 ![init 2]({{ img_path }}/1. init 2.png){: width='580'}

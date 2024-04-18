@@ -4,7 +4,6 @@ date: 2024-04-07 22:48:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '프로세스']
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-07-shell-job-session-pgid-and-daemon" %}
 
 
 
@@ -14,6 +13,7 @@ tags: ['OS', '프로세스']
 
 - 사용자와 운영체제(kernel) 사이의 **인터페이스 역할**을 하는 프로그램/환경
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-07-shell-job-session-pgid-and-daemon" %}
 ![셸(Shell)이란]({{ img_path }}/1.1. 셸(Shell)이란.png)
 _셸의 다양한 예시들_
 

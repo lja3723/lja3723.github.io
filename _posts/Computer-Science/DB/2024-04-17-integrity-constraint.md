@@ -4,7 +4,6 @@ date: 2024-04-17 21:28:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB']
 ---
-{% assign img_path = "/assets/img/posts/DB/2024-04-17-integrity-constraint" %}
 
 
 
@@ -144,6 +143,7 @@ tags: ['DB']
 
 #### 2.6.2. 릴레이션 간 참조 관계
 
+{% assign img_path = "/assets/img/posts/DB/2024-04-17-integrity-constraint" %}
 ![2.6.2. 릴레이션 간 참조 관계]({{ img_path }}/2.6.2. 릴레이션 간 참조 관계.png){: width='650'}
 _릴레이션 간 참조 관계_
 

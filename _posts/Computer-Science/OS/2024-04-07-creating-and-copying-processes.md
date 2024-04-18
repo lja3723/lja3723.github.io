@@ -4,7 +4,6 @@ date: 2024-04-07 17:35:00 +0900
 categories: [Computer-Science, OS]
 tags: ['OS', '프로세스']
 ---
-{% assign img_path = "/assets/img/posts/OS/2024-04-07-creating-and-copying-processes" %}
 
 
 
@@ -75,6 +74,7 @@ UNIX 계열 OS는 시스템 부팅 시 **0번 프로세스만 자체적으로 �
 - **CPID(Chlid PID)**: 자식이 없을 경우 -1
 - **메모리 관련 정보**: 독립된 주소 공간을 소유하기 때문
 
+{% assign img_path = "/assets/img/posts/OS/2024-04-07-creating-and-copying-processes" %}
 ![fork() 시스템 콜]({{ img_path }}/2. fork() 시스템 콜.png){: width='550'}
 
 ### 2.1. 실행 과정
