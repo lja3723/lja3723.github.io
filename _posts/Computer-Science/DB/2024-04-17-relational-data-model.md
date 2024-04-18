@@ -1,5 +1,5 @@
 ---
-title: "[DB] 데이터베이스 시스템 구성"
+title: "[DB] 관계 데이터 모델"
 date: 2024-04-17 21:03:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB']
