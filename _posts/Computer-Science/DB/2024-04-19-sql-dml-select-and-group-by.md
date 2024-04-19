@@ -31,7 +31,7 @@ FROM      <table name(s)>
 [ HAVING      <search condition(s)> ]
 [ ORDER BY    <attr. name> [ ASC | DESC ] ]
 ```
-{: file='SELECT문 기본 문법'}
+{: file='SELECT문 기본 문법' .nolineno}
 
 
 
@@ -556,7 +556,7 @@ SQL에서는 테이블이나 어떤 속성(칼럼)명에 새로운 이름을 붙
 
 ```sql
 SELECT bookname AS 도서명  -- bookname 대신 '도서명'이라는 별칭을 붙일 수 있다.
-                           -- 따옴표를 생략할 수 있다.
+                           -- 따옴표를 생략할 수 있다.(배경색 효과는 무시하자)
 SELECT bookname 도서명     -- AS를 이렇게 생략할 수 있다.
 SELECT bookname '도서명'   -- 작은따옴표로 별칭을 감쌀 수 있다.
 SELECT bookname "도서명"   -- 큰따옴표로도 별칭을 감쌀 수 있다.
@@ -888,12 +888,12 @@ GROUP BY  custid
 SQL은 순서가 없는 비절차적인 언어지만 내부적으로는 **실행 순서**가 있다. `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`가 포함된 다음 `SELECT` 문의 실행 순서를 알아보자.
 
 ```sql
-SELECT    custid, COUNT(*) AS '도서수량'  # (5) - 실행 순서
-FROM      Orders                          # (1)
-WHERE     saleprice >= 8000               # (2)
-GROUP BY  custid                          # (3)
-HAVING    COUNT(*) > 1                    # (4)
-ORDER BY  custid;                         # (6)
+SELECT    custid, COUNT(*) AS '도서수량'  -- (5) → 실행 순서
+FROM      Orders                          -- (1)
+WHERE     saleprice >= 8000               -- (2)
+GROUP BY  custid                          -- (3)
+HAVING    COUNT(*) > 1                    -- (4)
+ORDER BY  custid;                         -- (6)
 ```
 {: .nolineno}
 
