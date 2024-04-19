@@ -1,5 +1,5 @@
 ---
-title: "[DB] SQL 학습 전 준비사항과 SQL 개요"
+title: "[DB] SQL 개요 및 학습 전 준비사항"
 date: 2024-04-19 11:35:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB', 'SQL']
@@ -7,7 +7,82 @@ tags: ['DB', 'SQL']
 
 
 
-## 1. 릴레이션 관련 용어 재정리
+## 1. SQL 개요
+
+고객이 '축구의 역사' 도서의 출판사와 가격을 알고 싶어 할 때, 프로그래머는 어떻게 해야할까? 프로그래머는 **DBMS**에게 적절한 명령어를 내림으로써 목표를 달성할 수 있는데, 이 때 사용하는 **데이터베이스 전용 언어**를 **SQL**$^{\mathrm{Structured\\;Query\\;Language}}$이라고 한다.
+
+고객이 원하는 정보를 SQL로 표현하면 다음과 같다.
+
+```sql
+SELECT  bookname, publisher, price
+FROM    Book
+WHERE   bookname LIKE '축구의 역사';
+```
+{: .nolineno}
+
+SQL은 1970년대 후반 IBM이 SEQUEL$^\mathrm{Structured English QUEry Language}$이라는 이름으로 개발한 관계형 데이터베이스 언어였는데, 이후 ANSI에 의해 관계형 데이터베이스의 표준 언어로 승격되었다.
+
+SQL은 완전한 프로그래밍 언어는 아니지만, 데이터 부속어(data sublanguage)라고 부른다. 왜냐하면 DB의 데이터와 메타 데이터를 생성하고 처리하는 문법만 갖고 있기 때문이다.
+
+다음은 SQL과 일반 프로그래밍 언어의 차이점을 정리한 것이다.
+
+| 구분   | SQL                                          | 일반 프로그래밍 언어    |
+| ------ | -------------------------------------------- | ----------------------- |
+| 용도   | 데이터베이스에서 데이터를 추출하여 문제 해결 | 모든 문제 해결          |
+| 입출력 | 입력과 출력 모두 테이블[^table]              | 모든 형태의 입출력 가능 |
+| 번역   | DBMS                                         | 컴파일러                |
+
+[^table]: 지금까지는 릴레이션(relation)으로 불려왔던 그 표를 의미한다. 밑에서 다시 설명한다.
+
+### 1.1. 기능에 따른 SQL 분류
+
+SQL을 기능에 따라 분류하면 크게 DDL, DML, DCL로 나뉜다.
+
+- **데이터 정의어**(**DDL**, Data Definition Language)
+  - 테이블이나 관계의 구조를 생성하는 데 사용함
+  - 예시: `CREATE`, `ALTER`, `DROP`
+- **데이터 조작어**(**DML**, Data Manipulation Language)
+  - 테이블에 데이터를 검색·삽입·수정·삭제하는 데 사용함
+  - 예시: `SELECT`, `INSERT`, `DELETE`, `UPDATE`
+    - 이 중 `SELECT` 문은 특별히 **질의어(query)**라고 부름
+- **데이터 제어어**(**DCL**, Data Control Language)
+  - 데이터의 사용 권한을 관리하는 데 사용함
+  - 예시: `GRANT`, `REVOKE`
+
+{% assign img_path = "/assets/img/posts/DB/2024-04-19-sql-introduce-and-prerequisite.md" %}
+![3.1. 기능에 따른 SQL 분류]({{ img_path }}/1.1. 기능에 따른 SQL 분류.png){: width='430'}
+_데이터 정의어와 데이터 조작어의 주요 명령어_
+
+### 1.2. SQL의 예시
+
+- **SELECT문의 문장 프레임워크**
+
+```sql
+SELECT  -- 질의 결과 추출되는 속성 리스트를 열거한다.
+FROM    -- 질의에 어느 테이블이 사용되는 지 열거한다.
+WHERE   -- 질의 조건을 작성한다.
+```
+{: .nolineno}
+
+다음은 Customer 테이블에서 '김연아 고객의 전화번호를 찾으시오.'라는 질의를 SQL 문으로 표현한 것이다.
+
+```sql
+SELECT  phone
+FROM    Customer
+WHERE   name = '김연아';
+```
+{: .nolineno}
+
+SQL은 비절차적인 언어로 데이터를 조회·조작하는 데 필요한 조건을 기술하지만, 어떻게 데이터를 찾고 처리하는지와 같은 실행 절차를 직접 명시하지 않는다.
+
+하지만 위 SQL문은 내부적으로 DBMS에 의해 일정한 순서로 처리된다.
+
+![3.2. SQL의 예시]({{ img_path }}/1.2. SQL의 예시.png){: width='430'}
+_SQL 문의 내부적 실행 순서_
+
+
+
+## 2. 릴레이션 관련 용어 재정리
 
 릴레이션과 관련된 용어는 관점을 어디에 두느냐에 따라 달라진다. 우리는 지금까지 2차원 데이터 구조를 **릴레이션**으로 불러왔지만, 실무 관점에서는 주로 **테이블**이라고 부른다. 이처럼 관점의 차이에 따른 용어의 차이를 다시 정리한다. 
 
@@ -21,11 +96,11 @@ tags: ['DB', 'SQL']
 
 
 
-## 2. 예제 테이블 정리
+## 3. 예제 테이블 정리
 
 앞으로의 SQL 학습에 사용될 예제 데이터베이스 테이블을 소개한다. 이 테이블들은 앞으로의 SQL의 대상이 될 테이블들이다.
 
-### 2.1. Book 테이블
+### 3.1. Book 테이블
 
 - **테이블 이름**
   - Book
@@ -55,7 +130,7 @@ tags: ['DB', 'SQL']
 
 ---
 
-### 2.2. Customer 테이블
+### 3.2. Customer 테이블
 
 - **테이블 이름**
   - Customer
@@ -83,7 +158,7 @@ tags: ['DB', 'SQL']
 
 ---
 
-### 2.3. Orders 테이블
+### 3.3. Orders 테이블
 
 - **테이블 이름**
   - Orders
@@ -114,73 +189,8 @@ tags: ['DB', 'SQL']
 
 
 
-## 3. SQL 개요
+<br><br><br><br>
 
-고객이 '축구의 역사' 도서의 출판사와 가격을 알고 싶어 할 때, 프로그래머는 어떻게 해야할까? 프로그래머는 **DBMS**에게 적절한 명령어를 내림으로써 목표를 달성할 수 있는데, 이 때 사용하는 **데이터베이스 전용 언어**를 **SQL**$^{\mathrm{Structured\\;Query\\;Language}}$이라고 한다.
-
-고객이 원하는 정보를 SQL로 표현하면 다음과 같다.
-
-```sql
-SELECT  bookname, publisher, price
-FROM    Book
-WHERE   bookname LIKE '축구의 역사';
-```
-{: .nolineno}
-
-SQL은 1970년대 후반 IBM이 SEQUEL이라는 이름으로 개발한 관계형 데이터베이스 언어였는데, 이후 ANSI에 의해 관계형 데이터베이스의 표준 언어로 승격되었다.
-
-SQL은 완전한 프로그래밍 언어는 아니지만, 데이터 부속어(data sublanguage)라고 부른다. 왜냐하면 DB의 데이터와 메타 데이터를 생성하고 처리하는 문법만 갖고 있기 때문이다.
-
-다음은 SQL과 일반 프로그래밍 언어의 차이점을 정리한 것이다.
-
-| 구분   | SQL                                          | 일반 프로그래밍 언어    |
-| ------ | -------------------------------------------- | ----------------------- |
-| 용도   | 데이터베이스에서 데이터를 추출하여 문제 해결 | 모든 문제 해결          |
-| 입출력 | 입력과 출력 모두 테이블                      | 모든 형태의 입출력 가능 |
-| 번역   | DBMS                                         | 컴파일러                |
-
-### 3.1. 기능에 따른 SQL 분류
-
-SQL을 기능에 따라 분류하면 크게 DDL, DML, DCL로 나뉜다.
-
-- **데이터 정의어**(**DDL**, Data Definition Language)
-  - 테이블이나 관계의 구조를 생성하는 데 사용함
-  - 예시: `CREATE`, `ALTER`, `DROP`
-- **데이터 조작어**(**DML**, Data Manipulation Language)
-  - 테이블에 데이터를 검색·삽입·수정·삭제하는 데 사용함
-  - 예시: `SELECT`, `INSERT`, `DELETE`, `UPDATE`
-    - 이 중 `SELECT` 문은 특별히 **질의어(query)**라고 부름
-- **데이터 제어어**(**DCL**, Data Control Language)
-  - 데이터의 사용 권한을 관리하는 데 사용함
-  - 예시: `GRANT`, `REVOKE`
-
-{% assign img_path = "/assets/img/posts/DB/2024-04-19-sql-prerequisite-and-introduce" %}
-![3.1. 기능에 따른 SQL 분류]({{ img_path }}/3.1. 기능에 따른 SQL 분류.png){: width='400'}
-_데이터 정의어와 데이터 조작어의 주요 명령어_
-
-### 3.2. SQL의 예시
-
-- **SELECT문의 문장 프레임워크**
-
-```sql
-SELECT  -- 질의 결과 추출되는 속성 리스트를 열거한다.
-FROM    -- 질의에 어느 테이블이 사용되는 지 열거한다.
-WHERE   -- 질의 조건을 작성한다.
-```
-{: .nolineno}
-
-다음은 Customer 테이블에서 '김연아 고객의 전화번호를 찾으시오.'라는 질의를 SQL 문으로 표현한 것이다.
-
-```sql
-SELECT  phone
-FROM    Customer
-WHERE   name = '김연아';
-```
-{: .nolineno}
-
-SQL은 비절차적인 언어로 데이터를 조회·조작하는 데 필요한 조건을 기술하지만, 어떻게 데이터를 찾고 처리하는지와 같은 실행 절차를 직접 명시하지 않는다.
-
-하지만 위 SQL문은 내부적으로 DBMS에 의해 일정한 순서로 처리된다.
-
-![3.2. SQL의 예시]({{ img_path }}/3.2. SQL의 예시.png){: width='450'}
-_SQL 문의 내부적 실행 순서_
+---
+#### 각주
+{: data-toc-skip=''}
