@@ -5,7 +5,6 @@ categories: [Computer-Science, DB]
 tags: ['DB', 'SQL']
 ---
 
-{% assign img_path = "/assets/img/posts/DB/2024-04-19-sql-dml-join" %}
 
 
 ## 1. 조인
@@ -23,6 +22,7 @@ FROM    Customer, Orders;
 
 - **질의 결과**
 
+{% assign img_path = "/assets/img/posts/DB/2024-04-19-sql-dml-join" %}
 ![1. 조인]({{ img_path }}/1. 조인.png){: width='500'}
 _Customer와 Orders 테이블의 합체_
 
