@@ -1,5 +1,5 @@
 ---
-title: "[DB] SQL 개요 및 학습 전 준비사항"
+title: "[SQL] SQL 개요 및 학습 전 준비사항"
 date: 2024-04-19 11:35:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB', 'SQL']
