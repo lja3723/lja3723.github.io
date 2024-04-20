@@ -20,7 +20,7 @@ WHERE   bookname LIKE '축구의 역사';
 ```
 {: .nolineno}
 
-SQL은 1970년대 후반 IBM이 SEQUEL$^\mathrm{Structured English QUEry Language}$이라는 이름으로 개발한 관계형 데이터베이스 언어였는데, 이후 ANSI에 의해 관계형 데이터베이스의 표준 언어로 승격되었다.
+SQL은 1970년대 후반 IBM이 SEQUEL$^\mathrm{Structured\\;English\\;QUEry\\;Language}$이라는 이름으로 개발한 관계형 데이터베이스 언어였는데, 이후 ANSI에 의해 관계형 데이터베이스의 표준 언어로 승격되었다.
 
 SQL은 완전한 프로그래밍 언어는 아니지만, 데이터 부속어(data sublanguage)라고 부른다. 왜냐하면 DB의 데이터와 메타 데이터를 생성하고 처리하는 문법만 갖고 있기 때문이다.
 
