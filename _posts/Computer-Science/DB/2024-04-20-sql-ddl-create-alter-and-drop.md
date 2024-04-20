@@ -4,7 +4,6 @@ date: 2024-04-20 23:13:00 +0900
 categories: [Computer-Science, DB]
 tags: ['DB', 'SQL']
 ---
-{% assign img_path = "/assets/img/posts/DB/2024-04-20-sql-ddl-create-alter-and-drop" %}
 
 
 
