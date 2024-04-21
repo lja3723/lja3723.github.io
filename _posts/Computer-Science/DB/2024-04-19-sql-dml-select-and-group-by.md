@@ -23,7 +23,7 @@ _SELECT문의 구성요소_
 - attr.: attribute(속성)
 
 
-```text
+```sql
 SELECT    [ ALL | DISTINCT ] <attr. name(s)>
 FROM      <table name(s)>
 [ WHERE	  <search condition(s)> ]
@@ -31,7 +31,7 @@ FROM      <table name(s)>
 [ HAVING      <search condition(s)> ]
 [ ORDER BY    <attr. name> [ ASC | DESC ] ]
 ```
-{: file='SELECT문 기본 문법' .nolineno}
+{: .nolineno}
 
 
 
