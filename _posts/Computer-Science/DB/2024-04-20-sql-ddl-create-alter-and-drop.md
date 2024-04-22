@@ -66,7 +66,7 @@ CREATE TABLE <table name> (
     - `ON DELETE`: 참조되던 튜플이 삭제될 시 외래 키 속성에 대한 동작을 지정
       - `CASCADE`: 자신도 연쇄적으로 삭제됨
       - `SET NULL`: 외래키 값을 `NULL`로 지정
-      - 명시하지 않을 경우 기본 값은R `RESTRICT`(`NO ACTION`)이다.
+      - 명시하지 않을 경우 기본 값은 `RESTRICT`(`NO ACTION`)이다.
 
 > ON UPDATE 에 대한 설명은 나중에 찾아볼 예정이다.
 {: .prompt-warning}
@@ -243,7 +243,7 @@ ALTER TABLE <table name>
     [ [ ADD | DROP] CONSTRAINT <constraint name> ]
 ```
 
-- `ADD`, `DROP`: 속성을 추가·제거 시 사용
+- `ADD`, `DROP COLUMN`: 속성을 추가·제거 시 사용
 - `MODIFY`: 속성 변경 시 사용
 - `ADD CONSTRAINT <제약이름>`, `DROP CONSTRAINT <제약이름>`: 제약사항 추가·삭제 시 사용
 
