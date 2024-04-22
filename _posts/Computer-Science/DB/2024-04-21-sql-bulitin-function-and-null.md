@@ -324,7 +324,7 @@ SELECT  SYSDATE(), DATE_FORMAT(SYSDATE(), "%Y/%m/%d %W %H:%i") 'SYSDATE_FORMAT';
 
 ## 3. NULL 값 처리
 
-`NULL`은 아직 지정되지 않은 값으로 `0`, ` `(공백) 등과 다르며, `=`, `<>`과 같은 비교 연산자로 불가능하다. 그리고 `NULL` 값의 연산을 수행하면 결과 역시 `NULL`으로 반환된다.
+`NULL`은 아직 지정되지 않은 값으로 `0`, ' '(공백) 등과 다르며, `=`, `<>`과 같은 비교 연산자로 불가능하다. 그리고 `NULL` 값의 연산을 수행하면 결과 역시 `NULL`으로 반환된다.
 
 ### 3.1. 집계 함수 사용 시 NULL 관련 주의사항
 
@@ -358,13 +358,14 @@ INSERT INTO MyBook VALUES (1, 10000), (2, 20000), (3, NULL);
 
 ```sql
 SELECT  price + 100 
-FROM    MyBook 
-WHERE   bookid = 3;
+FROM    MyBook;
 ```
 - **결과**
 
 | price+100 |
 | --------- |
+| 10100     |
+| 20100     |
 | `NULL`    |
 
 ---
