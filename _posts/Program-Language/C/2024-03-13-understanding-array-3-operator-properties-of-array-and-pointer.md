@@ -14,6 +14,7 @@ tags: ["배열의 이해"]
 
 배열 선언 후 배열의 원소에 접근하려면 첨자 연산자(subscript operator) `[ ]` 를 사용한다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -29,11 +30,13 @@ char ch = str[7]; //ch의 값은 'm'
 
 첨자 연산자의 정의에 따르면, 표현식 `a[b]`는 표현식 `*((a) + (b))`와 동일한 표현이다. 따라서 `str[7]`은 `*(str + 7)`으로, 또 `*(str + 7)`은 `str[7]`으로 자유롭게 변환이 가능하다.
 
+<!-- omit from toc -->
 ### a[b] == b[a]​
 {: data-toc-skip=''}
 
 `a + b == b + a` 와 같은 덧셈의 교환 법칙에 의해, 표현식 `a[b]`, 즉 `*((a) + (b))`는 `*((b) + (a))`로 쓸 수 있으며 이는 표현식 `b[a]`와 같다. 따라서 아래와 같은 상당히 이상해 보이는 표현도 오류 없이 컴파일이 가능하고, 실제로 잘 동작한다!
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -51,6 +54,7 @@ char ch = 7[str]; //str[7]과 동일함, ch의 값은 'm'
 1. 간접 참조 연산자의 피연산자의 형식은 반드시 포인터 형식이이어야 한다. 이때 피연산자는 lvalue, rvalue 모두 가능하다.
 2. 간접 참조 연산자의 연산 결과는 포인터가 가리키는 위치를 지정하는 lvalue이고, 그 형식은 피연산자가 '`T`를 가리키는 포인터'일 경우 `T`이다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -72,6 +76,7 @@ double n2 = *p + 5; //역참조 연산자의 사용(*p)
 1. 주소 연산자의 피연산자는 lvalue이어야 한다.
 2. 주소 연산자의 연산 결과는 rvalue이며, 형식은 피연산자의 형식에서 파생된 포인터 형식이다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -85,6 +90,7 @@ double* p = &num; //주소 연산자의 사용(&num)
 
 ---
 
+<!-- omit from toc -->
 ## 참고 문서
 {: data-toc-skip=''}
 

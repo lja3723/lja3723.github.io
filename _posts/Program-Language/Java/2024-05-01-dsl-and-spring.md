@@ -155,7 +155,8 @@ DSL 관점에서, QueryDSL은 자바 코드로 작성하기 때문에 **내부�
 
 ---
 
-#### **참고자료**
+<!-- omit from toc -->
+## 참고 문서
 {: data-toc-skip=''}
 
 - [[JPA] Spring Data JPA와 QueryDSL 이해, 실무 경험 공유](https://ict-nroo.tistory.com/117)

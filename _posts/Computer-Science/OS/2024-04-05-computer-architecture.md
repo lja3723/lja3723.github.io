@@ -137,5 +137,6 @@ image:
 <br><br><br><br>
 
 ---
+<!-- omit from toc -->
 #### 각주
 {: data-toc-skip=''}

@@ -962,5 +962,6 @@ ORDER BY  custid;                         -- (6)
 <br><br><br><br>
 
 ---
-#### 8.6.1. 각주
+<!-- omit from toc -->
+#### 각주
 {: data-toc-skip=''}

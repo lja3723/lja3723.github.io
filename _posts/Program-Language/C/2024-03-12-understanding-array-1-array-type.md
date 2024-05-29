@@ -21,6 +21,7 @@ int arr[6];
 
 위 코드는 여러 변수의 선언문이다. 어떤 변수의 선언문을 보고 그 변수의 타입을 알기 위해서는 선언문에서 변수의 이름을 제외하면 된다. 그러므로 `k` 의 타입, `st` 의 타입은 각각 `long double`, `double *`이다. 그러면 `arr` 의 타입은 무엇일까? 보통 배열의 이름은 포인터라고 알려져 있기에 `int *` 라고 생각할 수도 있겠다. 그러나 틀렸다. 예상했을 수도 있겠지만, `arr` 의 타입은  `int [6]` 이다. 이것은 '원소의 형식은 `int` 이고, 원소의 개수(a.k.a. 배열의 길이)가 `6`인 배열'이라는 의미이다. 이렇게 첨자([], subscript)와 형식(type)으로 표현된 새로운 형식은 배열에 대한 형식, 배열을 표현하는 형식이라는 의미에서 **배열 형식(array type)**이라고 한다. 다른 표현으로는 **배열의 형식**, **배열 자료형**, **배열형** 등이 있다. 그러므로 배열은 포인터 같은 것이 아니라 말 그대로, '배열'이다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -77,6 +78,7 @@ sizeof( typename or variable or lvalue or rvalue )   //sizeof 연산자의 사�
 
 `sizeof` 연산자는 임의의 변수가 메모리를 차지하는 크기를 바이트 단위로 알려준다. 사용법은 위와 같다. 괄호 안의 `typename or variable or lvalue` 에는 크기를 알고 싶은 타입의 이름이나 타입형 변수, 또는 `lvalue` 나 `rvalue` 를 적어준다. (`lvalue` 와 `rvalue` 에 대해서는 추후에 언급한다.)
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -92,6 +94,7 @@ sizeof(k);   //k는 long double형 변수이므로 결과는 16
 ---
 <br>배열형에 대하여 `sizeof` 연산자를 적용할 경우, 그 결과는 `sizeof( 배열의 원소의 형 ) * (배열의 원소 개수)` 이다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -110,6 +113,7 @@ sizeof(unsigned char [7]);
 
 다차원 배열형에 대해  `sizeof` 연산자를 적용할 때에도 1차원 배열에 대해  `sizeof` 연산자를 적용한 것과 동일한 규칙(`sizeof( 배열의 원소의 형 ) * (배열의 원소 개수)`)이 적용된다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -141,6 +145,9 @@ sizeof(arr) == sizeof(T) * s1 * s2 * ... * sN  // 값은 항상 참이다
 ```
 {: .nolineno }
 
+---
+
+<!-- omit from toc -->
 ## 참고 문서
 {: data-toc-skip=''}
 

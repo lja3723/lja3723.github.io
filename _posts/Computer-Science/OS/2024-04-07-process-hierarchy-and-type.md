@@ -19,6 +19,7 @@ tags: ['OS', '프로세스']
 
 부모-자식 프로세스 관계를 운영체제별로 확인해보자.
 
+<!-- omit from toc -->
 ### **예시: 리눅스의 프로세스 목록**
 {: data-toc-skip=''}
 
@@ -29,6 +30,7 @@ tags: ['OS', '프로세스']
 ![예시 2]({{ img_path }}/1.1. 예시 2.png){: width='580'}
 _리눅스에서의 프로세스 목록_
 
+<!-- omit from toc -->
 ### **예시: 윈도우의 프로세스 목록**
 {: data-toc-skip=''}
 
@@ -111,6 +113,7 @@ _윈도우에서의 프로세스 목록_
 
 ### 3.3. 부모/자식 프로세스 ID의 확인
 
+<!-- omit from toc -->
 #### **examples for xNIX OS**
 {: data-toc-skip=''}
 ```c
@@ -135,6 +138,7 @@ Process ID = 228, Parent's ID = 1
 
 ---
 
+<!-- omit from toc -->
 #### **examples for Windows OS**
 {: data-toc-skip=''}
 ```c

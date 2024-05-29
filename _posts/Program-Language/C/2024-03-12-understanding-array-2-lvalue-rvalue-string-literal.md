@@ -22,6 +22,7 @@ tags: ["배열의 이해"]
 [^1-2]: malloc 계열의 함수가 이러한 기능을 수행한다.
 [^1-3]: 그러나 프로그램이 운영체제가 아닌 이상 RAM 전체가 실행 환경인 것은 아니다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -81,6 +82,7 @@ rvalue에 대해 정리하면 아래와 같다.
 3. rvalue는 대입 연산자(=)의 오른쪽에서만 등장할 수 있다.
 4. rvalue(가 표현하는 객체)는 모두 관찰 가능(observable)하고 수정 가능하지 않다(non-modifiable).
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -117,6 +119,7 @@ lvalue(가 표현하는 객체)는 기본적으로 관찰 가능(observable)하�
 
 따라서 배열의 이름은 정의에 의하여 대입 연산자의 왼쪽에 올 수 없고, const 한정자가 붙은 형식 역시 대입 연산자의 왼쪽에 올 수 없다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -139,6 +142,7 @@ const int PI = 3.14;
 ​
 lvalue는 이름과 다르게 대입 연산자의 왼쪽과 오른쪽 모두에 등장할 수 있다고 했다. 그런데 왜 lvalue는 이름과 다르게 대입 연산자의 오른쪽에도 등장할 수 있는 것일까? 그것은 바로 **lvalue 변환(lvalue conversion)**이 일어나기 때문이다. lvalue 변환이란, **lvalue 표현식이 lvalue가 표시하는 객체에 저장된 값으로 변환되는 것**을 말한다. 이때 변환된 값은 rvalue이므로, lvalue에서 rvalue로 변환이 일어난 것으로 볼 수 있다. 이러한  lvalue 변환은 컴파일러에 의해 수행된다. 
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -166,6 +170,7 @@ lvalue 변환은 항상 일어나는 것은 아니다. 몇 가지 예외가 있�
 
 따라서 다음 예시에 등장하는 모든 표현식 `a`는 lvalue이다. 
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -209,6 +214,7 @@ printf("%lu\n", sizeof("hello"));
 2. n개의 문자로 구성된 스트링 리터럴의 형식은 배열 형식으로, `char [n+1]` 이다.
 3. 스트링 리터럴의 원소는 수정 가능하지 않다.
 
+<!-- omit from toc -->
 ## 참고 문서
 {: data-toc-skip=''}
 
@@ -227,5 +233,6 @@ printf("%lu\n", sizeof("hello"));
 <br><br><br><br>
 
 ---
+<!-- omit from toc -->
 #### 각주
 {: data-toc-skip=''}

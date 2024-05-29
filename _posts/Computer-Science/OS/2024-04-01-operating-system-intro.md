@@ -190,5 +190,6 @@ OS는 하드웨어에 대한 추상화: 컴퓨터도 추상화할 수 있다.
 <br><br><br><br>
 
 ---
+<!-- omit from toc -->
 #### 각주
 {: data-toc-skip=''}

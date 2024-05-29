@@ -132,5 +132,6 @@ _프로세스의 메모리 구조_
 <br><br><br><br>
 
 ---
+<!-- omit from toc -->
 #### 각주
 {: data-toc-skip=''}

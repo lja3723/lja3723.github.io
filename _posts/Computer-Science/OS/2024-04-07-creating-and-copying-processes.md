@@ -105,6 +105,7 @@ else {
 
 ![fork() 실행 과정]({{ img_path }}/2.1. fork() 실행 과정.png){: width='650'}
 
+<!-- omit from toc -->
 #### **code example for xNIX**
 {: data-toc-skip=''}
 
@@ -142,6 +143,7 @@ int main() {
 }
 ```
 
+<!-- omit from toc -->
 #### **실행 결과**
 {: data-toc-skip=''}
 
@@ -189,12 +191,14 @@ Parent: pid = 481
 
 ### 3.1. 실행 과정
 
+<!-- omit from toc -->
 #### 메모리
 {: data-toc-skip=''}
 
 - Code 영역에 있는 기존의 내용을 지우고, 새로운 코드를 덮어씌움
 - Data 영역이 새 변수로 채워지고, 힙/스택 영역이 리셋됨
 
+<!-- omit from toc -->
 #### PCB
 {: data-toc-skip=''}
 
@@ -216,6 +220,7 @@ Parent: pid = 481
   - foreground process 있는 경우: shell은 wait 상태
   - 프로세스 실행 중 상태에서 `Ctrl + Z` → 프로세스 일시중단 → 쉘이 wait에서 빠져나온다.
 
+<!-- omit from toc -->
 #### **code example for xNIX**
 {: data-toc-skip=''}
 
@@ -248,6 +253,7 @@ int main() {
 }
 ```
 
+<!-- omit from toc -->
 #### **실행 결과**
 {: data-toc-skip=''}
 
@@ -293,6 +299,7 @@ Parent: child's exit code=0
 > - PCB가 남아있으므로, `ps` 명령어 등으로 존재를 확인할 수 있다.
 {: .prompt-danger}
 
+<!-- omit from toc -->
 #### **code example for xNIX**
 {: data-toc-skip=''}
 
@@ -324,6 +331,7 @@ int main() {
 }
 ```
 
+<!-- omit from toc -->
 #### **실행 결과**
 {: data-toc-skip=''}
 
@@ -390,6 +398,7 @@ foo() {
   - `fork()`: 자식 프로세스가 부모 프로세스의 주소공간 상속밭음
   - `CreateProcess()`: 자식 프로세스에게 구체적으로 어떤 프로그램을 실행할 것인지 요구(주소값이 명확해야 한다.)
 
+<!-- omit from toc -->
 #### **code example for Windows**
 {: data-toc-skip=''}
 
@@ -420,6 +429,7 @@ int main() {
 }
 ```
 
+<!-- omit from toc -->
 #### **실행 결과**
 {: data-toc-skip=''}
 

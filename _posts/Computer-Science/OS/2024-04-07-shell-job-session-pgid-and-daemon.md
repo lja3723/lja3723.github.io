@@ -59,11 +59,13 @@ _`ps ajx` 실행 결과_
   - `SIGHUP`을 무시하도록 설정하고 프로세스를 가동하는 것이다.
   - 만약 세션이 종료되어도, 프로세스를 종료하지 않도록 한다.
 
+<!-- omit from toc -->
 #### **example: nohup이 없을 때**
 {: data-toc-skip=''}
 
 ![nohup이 없을 때]({{ img_path }}/1.4. nohup이 없을 때.png){: width='600'}
 
+<!-- omit from toc -->
 #### **example: nohup이 있을 때**
 {: data-toc-skip=''}
 
@@ -89,6 +91,7 @@ _`ps ajx` 실행 결과_
 ![프로세스 그룹(PGID)]({{ img_path }}/2. 프로세스 그룹(PGID).png){: width='550'}
 
 
+<!-- omit from toc -->
 #### **예시**
 {: data-toc-skip=''}
 
@@ -120,5 +123,6 @@ _`ps ajx` 실행 결과_
 <br><br><br><br>
 
 ---
+<!-- omit from toc -->
 #### 각주
 {: data-toc-skip=''}

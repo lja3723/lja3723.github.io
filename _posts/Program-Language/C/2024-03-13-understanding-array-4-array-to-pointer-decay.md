@@ -14,6 +14,7 @@ tags: ["배열의 이해"]
 
 **배열의 포인터로의 붕괴(array to pointer decay)**, 또는 **배열의 붕괴(array decay)**는 배열 형식(array type)이 표현식에 나타날 때 **배열의 첫 번째 원소를 가리키는 포인터로 변환되는 현상**을 말한다. 이때 **포인터의 형식은 배열의 원소의 형식**이며, 변환의 결과는 rvalue이다. 다시 말하면 배열 형식이 표현식에 나타날 때, 그 즉시 값이 배열의 첫 번째 원소의 주소값이고 형식이 배열의 원소 형식에 대한 포인터인 rvalue로 변환된다. 이러한 변환은 C/C++의 암시적 형변환(implicit conversion) 중 하나이다. 또한 변환의 결과가 rvalue이므로, **변환 결과로 생긴 포인터를 위한 별도의 메모리 공간이 따로 할당되는 것은 아니라는 것**을 알 수 있다!
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -45,6 +46,7 @@ printf("%c", str[2]);
 2. 배열 형식이 단항 주소 연산자 & 의 피연산자로 쓰일 경우
 3. 문자 배열 형식을 문자 리터럴(string literal)으로 초기화(initialize)할 때 
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -63,6 +65,7 @@ printf("%lu\n", sizeof(arr + 2));
 
 배열 형식은 3가지 예외를 제외하고 형식이 배열의 원소에 대한 포인터이고 값이 배열의 원소의 첫 번째의 주소값인 rvalue로 붕괴한다고 하였다. 이런 변환의 결과를 자세히 살펴보면 배열의 원소 형식에 대한 정보는 남아있지만, 배열의 원소의 개수, 즉 **배열의 길이에 대한 정보가 손실되었다**는 것을 알 수 있다. 이러한 이유로 배열이 포인터로 변환하는 현상을 배열의 붕괴(decay)라고 명명한 것이다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -94,6 +97,7 @@ sizeof(k) / sizeof(*k) == N; // 값은 항상 참
 
 `sizeof(k)`는 배열 형식에 대한 `sizeof` 연산에 의해 `sizeof(T) * N` 과 같다. 한편 표현식 `*k` 에서 `k`는 배열의 붕괴에 의해 배열의 첫 번째 원소를 가리키는 형식이 `T *`인 rvalue로 붕괴되고, 여기에 간접 참조 연산자 `*`를 적용하므로 `*k`는 형식이 `T`인 lvalue이다. 따라서` sizeof(*k)`는 `sizeof(T)`와 같다. 즉 `sizeof(k) / sizeof(*k)`는 `(sizeof(T) * N) / sizeof(T)`이며, 배열 원소의 크기 `sizeof(T)`가 상쇄되므로 배열의 길이 `N` 만 남는다. 그래서 `sizeof(k) / sizeof(*k) == N` 은 항상 참이다.
 
+<!-- omit from toc -->
 ### examples
 {: data-toc-skip=''}
 
@@ -116,6 +120,7 @@ int main(void) {
 
 ---
 
+<!-- omit from toc -->
 ## 참고 문서
 {: data-toc-skip=''}
 
