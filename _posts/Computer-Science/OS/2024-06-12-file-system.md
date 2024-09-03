@@ -65,7 +65,6 @@ tags: ['OS']
 
 {% assign img_path = "/assets/img/posts/OS/2024-06-12-file-system" %}
 ![3.1. 종이]({{ img_path }}/3.1. 종이.png){: width='500'}
-![alt text](image-0.png)
 
 ### 3.2. 자기장 기반 방식
 
