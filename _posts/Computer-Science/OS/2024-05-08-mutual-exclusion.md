@@ -45,7 +45,7 @@ tags: ['OS', '동기화']
   - entry code에서 대기중인 스레드가 임계구역에 진입할 수 있도록 entry code에서 취한 조치를 해제하는 코드
 
 {% assign img_path = "/assets/img/posts/OS/2024-05-08-mutual-exclusion" %}
-![1.3. 상호 배제를 포함하는 프로그램]({{ img_path }}/1.3. 상호 배제를 포함하는 프로그램.png){: width='650'}
+![1.3. 상호 배제를 포함하는 프로그램]({{ img_path }}/1.3. 상호 배제를 포함하는 프로그램.png){: width='500'}
 
 
 ### 1.4. 구현 주의사항
@@ -80,7 +80,7 @@ tags: ['OS', '동기화']
     - **인터럽트를 금지한다** → Scheduling에 의한 context switching도 자연스럽게 금지됨.
     - 스레드도 중단되지 않음
 
-![2. 인터럽트 서비스 금지]({{ img_path }}/2. 인터럽트 서비스 금지.png)
+![2. 인터럽트 서비스 금지]({{ img_path }}/2. 인터럽트 서비스 금지.png){: width='650'}
 
 - cil: clear interrupt
 - stl: set interrupt
@@ -262,7 +262,7 @@ int main() {
 - lock 변수를 이용한 상호배제 실패 원인? entry 코드에 있음
   - lock 변수 값 읽는 명령과 lock 변수에 1 저장하는 2개의 명령 사이에 컨텍스트 스위칭 될 때 문제 발생
 
-![3. 인터럽트 서비스 금지 문제점]({{ img_path }}/3. 인터럽트 서비스 금지 문제점.png){: width='500'}
+![3. 인터럽트 서비스 금지 문제점]({{ img_path }}/3. 인터럽트 서비스 금지 문제점.png){: width='400'}
 _인터럽트 서비스 금지의 본질적 문제점_
 
 ### 3.1. 해결책: 원자 명령(atomic instuction) 도입

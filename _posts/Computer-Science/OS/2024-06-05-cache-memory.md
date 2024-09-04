@@ -28,7 +28,7 @@ tags: ['OS', '페이징', '캐시 메모리']
       - $m$: memory
 
 {% assign img_path = "/assets/img/posts/OS/2024-06-05-cache-memory" %}
-![1. 캐시 메모리]({{ img_path }}/1. 캐시 메모리.png){: width='500'}
+![1. 캐시 메모리]({{ img_path }}/1. 캐시 메모리.png){: width='450'}
 
 
 
@@ -45,7 +45,7 @@ tags: ['OS', '페이징', '캐시 메모리']
     - 이후 10bit를 index로 사용 (why?)
   - 서로 다른 데이터의 인덱스가 중복될 위험이 너무 큰 주소 인덱싱
 
-![2. 캐시 인덱싱]({{ img_path }}/2. 캐시 인덱싱.png){: width='500'}
+![2. 캐시 인덱싱]({{ img_path }}/2. 캐시 인덱싱.png){: width='450'}
 
 
 
@@ -64,7 +64,7 @@ tags: ['OS', '페이징', '캐시 메모리']
 -  01 010   0000  에 대한 데이터 참조
 - (T) (I) (offset)
 
-![3. Tag matching 2]({{ img_path }}/3. Tag matching 2.png){: width='500'}
+![3. Tag matching 2]({{ img_path }}/3. Tag matching 2.png)
 
 - 태그 필터링 후 인덱스를 가져옴
 
@@ -124,7 +124,7 @@ tags: ['OS', '페이징', '캐시 메모리']
 
 ## 7. 완전 연관 사상
 
-![7. 완전 연관 사상]({{ img_path }}/7. 완전 연관 사상.png){: width='500'}
+![7. 완전 연관 사상]({{ img_path }}/7. 완전 연관 사상.png)
 
 ### 7.1. 장점
 

@@ -42,7 +42,7 @@ tags: ['OS', '메모리']
     - **MMU(Memory Management Unit)**
 
 {% assign img_path = "/assets/img/posts/OS/2024-05-27-memory-address" %}
-![1.3. address binding]({{ img_path }}/1.3. address binding.png){: width='500'}
+![1.3. address binding]({{ img_path }}/1.3. address binding.png){: width='550'}
 
 
 
@@ -54,7 +54,7 @@ tags: ['OS', '메모리']
   - 인텔이나 AMD의 x86 CPU는 80286부터 MMU를 내장함
   - MMU 덕분으로, 여러 프로세스가 하나의 메모리에서 실행되도록 되었음
 
-![2. MMU 1]({{ img_path }}/2. MMU 1.png){: width='500'}
+![2. MMU 1]({{ img_path }}/2. MMU 1.png){: width='350'}
 
 ![2. MMU 2]({{ img_path }}/2. MMU 2.png)
 
@@ -73,7 +73,7 @@ tags: ['OS', '메모리']
 | 주소 시작 | 물리 주소 0번지부터 시작  | 물리주소와 관계 없이 항상 0번지부터 시작 |
 | 주소 공간 | 물리 주소(실제 주소) 공간 | 논리 주소 공간                           |
 
-![2.1 상대주소 절대주소 1]({{ img_path }}/2.1 상대주소 절대주소 1.png){: width='500'}
+![2.1 상대주소 절대주소 1]({{ img_path }}/2.1 상대주소 절대주소 1.png){: width='550'}
 
 
 
@@ -102,7 +102,7 @@ tags: ['OS', '메모리']
   - 한정된 메모리에서 메모리보다 큰 프로그램 실행 가능
   - 프로그램 전체가 아니라 일부만 메모리에 올라와도 실행 가능
 
-![4. 메모리 오버레이]({{ img_path }}/4. 메모리 오버레이.png){: width='500'}
+![4. 메모리 오버레이]({{ img_path }}/4. 메모리 오버레이.png){: width='450'}
 
 ### 4.1. Swap
 
@@ -118,7 +118,7 @@ tags: ['OS', '메모리']
   - pagefile.sys, swapfile.sys 등 파일로 저장함
 - 리눅스에서는 스**왑파티션**이라고 표현함
 
-![4.1. swap]({{ img_path }}/4.1. swap.png){: width='500'}
+![4.1. swap]({{ img_path }}/4.1. swap.png){: width='450'}
 
 
 
@@ -129,7 +129,7 @@ tags: ['OS', '메모리']
 - 프로세스의 논리적 주소 공간을 정의하는 **Base register**와 **Limit register**를 사용하여 접근 보호 기능
   - 이들을 벗어나는 주소 공간을 접근하면 에러 발생
 
-![5. 메모리 보호 기법]({{ img_path }}/5. 메모리 보호 기법.png){: width='500'}
+![5. 메모리 보호 기법]({{ img_path }}/5. 메모리 보호 기법.png)
 
 ### 5.1. ASLR
 
